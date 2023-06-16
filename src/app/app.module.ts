@@ -7,11 +7,12 @@ import { NavbarComponent } from './Navbar/Navbar.component';
 import { BannerComponent } from './Banner/Banner.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
     NavbarComponent,
-      BannerComponent
-   ],
+    BannerComponent,
+    BannerComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule
