@@ -1,6 +1,19 @@
-.sobre{
-    float: left;
-    text-align:center;
+.sobre-all {
+    margin: 0 auto;
+    width: 1170;
+}
+
+.sobre {
     max-width: 30%;
-    
+    margin: 50px 0 0 300px;
+}
+
+.sobre h5 {
+    color: #009ddf;
+    font-size: 45px;
+    line-height: 24px;
+}
+
+.sobre p {
+    margin: 30px 0 0 0;
 }
