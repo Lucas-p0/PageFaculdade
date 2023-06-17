@@ -1,0 +1,9 @@
+.informacao-all {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 auto;
+    
+}
+.informacao-all h5{
+    color: #009ddf;
+}
