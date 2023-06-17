@@ -1,7 +1,17 @@
-.footer-all {
-    background-color: #282c36;
-    width: ;
+div {
+    margin: 0;
 }
-.footer-all img{
-    width: 15%;
+
+.footer-all {
+    padding: 3rem 2rem;
+    background-color: #282c36;
+    max-width: 100%;
+    color: rgb(241, 241, 241);
+}
+
+.footer-all img {
+    width: 30%;
+}
+.footer-div-2{
+    text-align: right;
 }
