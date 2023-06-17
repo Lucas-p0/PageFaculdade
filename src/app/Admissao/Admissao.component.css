@@ -1,0 +1,35 @@
+.admissao-all {
+       text-align: center;
+       
+    
+}
+.admissao-all h2{
+    color: #0C5394;
+    margin: 82px auto;
+}
+
+.admissao-all img {
+    width: 45%;
+    margin: 0 auto;
+   
+}
+
+.admissao-all h5 {
+    color: #0C5394;
+    text-align: center;
+}
+
+.admissao-all p {
+    text-align: center;
+}
+
+.admissao-all .card {
+
+    border: none;
+    background-color: a;
+
+}
+.admissao-grupo-2 {
+    width: 70%;
+    margin: 5% auto;
+}

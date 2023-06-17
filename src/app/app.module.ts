@@ -7,15 +7,17 @@ import { NavbarComponent } from './Navbar/Navbar.component';
 import { BannerComponent } from './Banner/Banner.component';
 import { SobreComponent } from './Sobre/Sobre.component';
 import { InformacoesComponent } from './Informacoes/Informacoes.component';
+import { AdmissaoComponent } from './Admissao/Admissao.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
     NavbarComponent,
     BannerComponent,
     BannerComponent,
       SobreComponent,
-      InformacoesComponent
+      InformacoesComponent,
+      AdmissaoComponent
    ],
   imports: [
     BrowserModule,
