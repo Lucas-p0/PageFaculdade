@@ -29,21 +29,22 @@
     <form class="row g-3">
       <div class="col-md-6">
         <label for="nome" class="form-label">Nome</label>
-        <input type="text" class="form-control" placeholder="" aria-label="">
+        <input type="text" class="form-control" placeholder="" aria-label="" required>
       </div>
       <div class="col-md-6">
         <label for="nome" class="form-label">Sobrenome</label>
-        <input type="text" class="form-control" placeholder="" aria-label="">
+        <input type="text" class="form-control" placeholder="" aria-label="" required>
       </div>
 
       <div class="mb-3">
         <label for="inputPassword4" class="form-label">Telefone</label>
-        <input type="tel" class="form-control" id="inputPassword4" placeholder="Ex.(27)98888-7777">
+        <input type="tel" class="form-control" id="inputPassword4" placeholder="Ex.(27)98888-7777"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
       </div>
 
       <div class="mb-3">
         <label for="inputEmail4" class="form-label">E-mail</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="">
+        <input type="email" class="form-control" id="inputEmail4" placeholder="" required>
       </div>
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Fale conosco</label>
