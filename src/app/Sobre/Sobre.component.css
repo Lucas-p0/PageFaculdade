@@ -1,32 +1,52 @@
 .sobre-all {
     display: flex;
-    margin: 50px auto ;
-    
+    margin: 50px auto;
+
 }
 
-.sobre {
+.sobre-div-1 {
     max-width: 30%;
-    margin: 0 auto ;
-     
+    margin: 0 auto;
+
 }
 
-.sobre h5 {
+.sobre-div-1 h5 {
     color: #009ddf;
     font-size: 45px;
     line-height: 24px;
 }
 
-.sobre p {
+.sobre-div-1 p {
     margin: 30px 0 0 0;
 }
-.form-sobre{
-    
+
+.form-sobre {
+
     float: left;
     width: 30%;
     margin: 0 auto;
 }
-.form-sobre h2{
+
+.form-sobre h2 {
     color: #009ddf;
     font-size: 25px;
     line-height: 24px;
 }
+
+@media (min-width: 390px) and (max-width: 768px) {
+    .sobre-all {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-div-1 {
+        max-width: none;
+    }
+
+    .form-sobre {
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}

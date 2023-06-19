@@ -1,7 +1,7 @@
 .informacao-all {
     display: flex;
     flex-flow: row nowrap;
-    margin: 100px 364px
+    margin: 100px 364px;
 }
 .informacao-all .card{
     border: none;
@@ -9,4 +9,12 @@
 
 .informacao-all h5 {
     color: #009ddf;
+}
+@media (min-width: 390px) and (max-width: 768px){
+    .informacao-all{
+        margin: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
 }
