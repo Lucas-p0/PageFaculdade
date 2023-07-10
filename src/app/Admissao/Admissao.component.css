@@ -1,9 +1,10 @@
 .admissao-all {
-       text-align: center;
-       
-    
+    text-align: center;
+
+
 }
-.admissao-all h2{
+
+.admissao-all h2 {
     color: #0C5394;
     margin: 82px auto;
 }
@@ -11,7 +12,7 @@
 .admissao-all img {
     width: 45%;
     margin: 0 auto;
-   
+
 }
 
 .admissao-all h5 {
@@ -29,7 +30,30 @@
     background-color: a;
 
 }
+
 .admissao-grupo-2 {
     width: 70%;
     margin: 5% auto;
 }
+
+@media (min-width: 390px) and (max-width: 768px) {
+    .admissao-all h5 {
+        white-space: nowrap;
+        text-align: center;
+        font-size: 0.7rem;
+        margin: 0;
+    }
+
+    .admissao-all p {
+        font-size: 0.7rem;
+        margin: 10px 0;
+    }
+    .admissao-all .card{
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
